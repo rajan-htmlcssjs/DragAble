@@ -1,0 +1,30 @@
+body{
+    background-color: blueviolet;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.empty{
+    width: 150px;
+    height: 150px;
+    margin:10px;
+    border:1px black solid
+}
+
+.fill{
+    background-image: url('https://source.unsplash.com/random/150x150');
+    height: 150px;
+    width: 150px;
+    cursor: pointer;
+}
+
+.hold{
+    border: 1px solid #eee;
+}
+
+.hovered{
+    background-color: grey;
+    border-color: white;
+    border-style: dashed;
+}
